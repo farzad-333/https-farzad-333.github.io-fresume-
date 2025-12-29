@@ -1,0 +1,529 @@
+ body {
+  font-size: 1rem;
+  font-family: 'Inter', sans-serif;
+  font-variation-settings: "opsz" 32;
+}
+ /* header */
+ a{
+  display: block;
+  text-decoration: none;
+ }
+.top-box {
+    width: 90%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+    background-color: rgba(245, 245, 245, 0.897);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    margin: 0 auto;
+    position: fixed;
+    z-index: 9999;
+
+}
+
+/* logo */
+.logo {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+/* navigation */
+.nav-box ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-box a {
+    text-decoration: none;
+    color: #000;
+    font-size: 0.9rem;
+}
+
+/* user */
+.user-box {
+    position: relative;
+}
+
+.user-box svg {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+/* dropdown */
+.score-box {
+    position: absolute;
+    top: 2.5rem;
+    right: 0;
+    width: 6rem;
+    background-color: rgba(79, 47, 77, 0.9);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+}
+
+.score-box ul {
+    list-style: none;
+    margin: 0;
+    padding: 0.5rem;
+}
+
+.score-box a {
+    display: block;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.85rem;
+    padding: 0.3rem 0;
+}
+
+.balebalr{
+    width: 100%;
+    height: 2rem;
+    justify-content: center;
+    border: none;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.text-box{
+    width: 97%;
+    height: 7.8rem;
+    margin: 0 auto;
+    border: none;
+    border-radius: 12px;
+    top: 0;
+    background-color: rgb(245 245 245);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+   margin-bottom: 30px;
+
+}
+.h-text{
+    text-align: center;
+    text-shadow: 7px 2px 13px;
+    font-size: 1.5rem;
+}
+.p-text{
+    text-align: center;
+    text-shadow: 17px 2px 12px;
+}
+.shopNow{
+    margin: 0 auto;
+    width: 6.5rem;
+    height: 1.3rem;
+    font-size: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #000;
+    color:#fff ;
+    display: block;
+}
+.cordBox{
+    width: 99%;
+    border: none;
+    border-radius: 11px;
+    background-color: #fcfcfcef;
+    margin: 0 auto; 
+}
+.h3cord{
+    text-align: center;
+    color: #474747;
+    margin-top: 20px;
+}
+.shop-cord{
+width: 100%;
+height: auto;
+border-radius: 10px;
+margin-top: 25px;
+display: flex;
+flex-wrap: wrap;
+align-items: center;              
+justify-content: center;
+background-color: rgb(251, 255, 255);
+backdrop-filter: blur(10px) saturate(110%);
+-webkit-backdrop-filter: blur(10px) saturate(110%);
+border: 1px solid rgba(255, 255, 255, 0.4);
+gap: 25px;
+
+}
+
+.shop{
+    width: 9rem;
+    min-height: 18rem;
+    border: none;
+    background: rgba(255, 255, 255, 0.55);
+    backdrop-filter: blur(10px) saturate(110%);
+    -webkit-backdrop-filter: blur(10px) saturate(110%);
+    border: 1px solid rgba(179, 179, 179, 0.493);
+    filter: drop-shadow(5px 4px 8px);
+
+}
+
+.shop img{
+    width: 100%;
+    height: 8rem;
+    display: block;
+    margin: 5px auto;
+}    
+.shop-img{
+    text-align: center;
+}
+.prace{
+    text-align: center;
+}
+.cord-button{
+    display: block;
+    margin: 0 auto;
+    width:  6.5rem;
+    height: 1.3rem;
+    background-color: #000;
+    color: #fff;
+    font-size: 10px;
+}
+
+.watches-section {
+  background-color: #f8f0fa;
+  padding: 50px 20px;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.section-title {
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.watch-card {
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 20px;
+  width: 200px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.watch-card:hover {
+  transform: translateY(-5px);
+}
+
+.watch-image {
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+.watch-name {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.watch-price {
+  font-size: 1rem;
+  margin-bottom: 15px;
+  color: #666;
+}
+
+.buy-button {
+  background-color: #ffffff80;
+  border: 1px solid #ccc;
+  padding: 8px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.buy-button:hover {
+  background-color: #ffffffc0;
+}
+
+/* ----------- ریسپانسیو ---------- */
+
+/* موبایل کوچک (تا 480px) */
+@media (max-width: 480px) {
+  .cards-container {
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
+  .watch-card {
+    width: 90%;
+  }
+}
+
+/* موبایل و تبلت کوچک (تا 768px) */
+@media (max-width: 768px) {
+  .cards-container {
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+  }
+  .watch-card {
+    width: 45%;
+  }
+}
+
+/* تبلت بزرگ (تا 1024px) */
+@media (max-width: 1024px) {
+  .watch-card {
+    width: 200px; /* هنوز چهار کارت کنار هم */
+  }
+}
+
+.box{
+  width: 10rem;
+  height: 10rem;
+  gap: 20px;
+}
+
+@media (max-width: 768px) {
+  .box {
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .watch-card {
+    width: 45%;
+    margin: 0 auto;
+
+  }
+}
+
+@media (max-width: 1024px) {
+  .box {
+    width: 200px; 
+    margin: 0 auto;
+
+  }
+}
+/* for buttom menu web site */
+.buttom-menu{
+  width: 98%;
+  height: auto;
+  border: none;
+  border-radius: 11px;
+  box-sizing: border-box;
+  box-shadow: 2px 5px 4px #bf87c4;
+  margin: 20px auto;
+  gap: 25px;
+}
+
+.menu-box{
+  width: 60%;
+  height: auto;
+  margin: 10px auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.info-box{
+  width: 17rem;
+  height: 15rem;
+  backdrop-filter: blur(10px) saturate(110%);
+  -webkit-backdrop-filter: blur(10px) saturate(110%);
+  filter: drop-shadow(5px 4px 8px);
+  font-size: 11px;
+}
+
+
+ .loader-wrap {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  margin: 20px 40px 0;
+}
+
+.loader-ring {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  border: 4px solid #6A00FF;
+  border-top-color: rgba(106, 0, 255, 0.25);
+  box-shadow: 0 0 6px rgba(106, 0, 255, 0.5);
+  animation: spin 3s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.img-Box{
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  border-radius: 100%;
+}
+
+.img-Box img{
+  width: 109px;
+  height: 109px;
+  border-radius: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.content-box{
+  width: 150px;
+  height: 150px;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px 20px 0;
+}
+
+.content-box svg{
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+}
+.noteBook{
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  border: none;
+  border-radius: 7px;
+  box-shadow: 1px 1px 3px rgba(106, 0, 255, 0.25);
+  font-size: 11px;
+}
+
+.noteBook h2{
+  text-align: center;
+  font-size: 16px;
+}
+/* برای فرم ثبت نام */
+.neumorphic {
+  background: #e0e5ec;
+  border-radius: 20px;
+  box-shadow: 10px 10px 20px #a3b1c6,
+              -10px -10px 20px #ffffff;
+}
+
+.neumorphic-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  width: 300px;
+  text-align: center;
+  margin: 100px auto; /* اضافه برای قرارگیری وسط صفحه */
+}
+
+.neumorphic-input {
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  box-shadow: inset 5px 5px 10px #a3b1c6,
+              inset -5px -5px 10px #ffffff;
+}
+
+.neumorphic-button {
+  margin-top: 15px;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 5px 5px 10px #a3b1c6,
+              -5px -5px 10px #ffffff;
+  transition: all 0.2s ease;
+}
+
+.neumorphic-button:active {
+  box-shadow: inset 5px 5px 10px #a3b1c6,
+              inset -5px -5px 10px #ffffff;
+}
+.sin{
+
+  border-radius: 20px;
+  width: 80px;
+  height: 55px;
+  margin-right: 90%;
+ box-shadow: 5px 5px 10px #a3b1c6,
+              -5px -5px 10px #ffffff;
+                background: #e0e5ec;
+                  cursor: pointer;
+    font-size: 15px;            
+}
+/* باکس مخفی ثبت نام / ورود */
+#score{
+  width: 8rem;
+  height: auto;
+  border: none;
+  border-radius: 4px;
+  background-color: #ccc;
+  margin-top: 8rem;
+  color: #000;
+  box-sizing: border-box;
+  gap: 5px;
+  display: none;
+}
+#score li{
+  width: 100%;
+  height: 100%;
+  display: block;
+  border-radius: 3px;
+  color: #000;
+  list-style: none;
+  text-align: center;
+  box-shadow: inset 5px 5px 10px #a3b1c6,inset -5px -5px 10px #ffffff;
+  border-color: #ccc;
+  transition: background-color 0.1s;
+}
+#score li:hover{
+  background-color: #ffff;
+}
+/* برای سرچ باکس */
+.search-input{
+  width: 70%;
+  height: 2rem;
+  box-shadow: inset 5px 5px 10px #a3b1c68a,inset -5px -5px 10px #ffffff79;
+  border: none;
+  margin-top: 100%;
+  background-color: #fcfcfcc4;
+  border-radius: 7px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5), 0 0 10px #ff69b4, 0 0 20px #ff1493;
+
+}
+.search-input:focus{
+  outline: none;
+}
+.search-button{
+width: 1.7rem;
+height: 2rem;
+border: none;
+border-radius: 7px;
+background-color: #ccf;
+box-shadow: inset 5px 5px 10px #a3b1c68a,inset -5px -5px 10px #ffffff79;
+text-align: center;
+text-shadow: 2px 2px 4px rgba(0,0,0,0.5), 0 0 10px #b0bcff, 0 0 20px #969395;
+}
+.boxSerar{
+  display: none;
+  position: fixed;
+}
+
+
+
+
+
+
+
